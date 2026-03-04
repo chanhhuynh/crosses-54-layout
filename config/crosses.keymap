@@ -6,6 +6,12 @@
 / {
     chosen { zmk,physical-layout = &gggw_crosses_54_layout; };
 
+    behaviors {
+        lt: layer_tap {
+            tapping-term-ms = <500>;
+        }
+    }
+
     keymap {
         compatible = "zmk,keymap";
         default_layer {
