@@ -8,7 +8,7 @@
 
     behaviors {
         lt: layer_tap {
-            tapping-term-ms = <500>;
+            tapping-term-ms = <350>;
         };
     };
 
